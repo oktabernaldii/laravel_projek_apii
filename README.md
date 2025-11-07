@@ -1,13 +1,21 @@
 # OKTA BENALDI
 
-## 📌 Membuat Controller
-
-1. `php artisan make:controller -r`
-2. `php artisan make:migration`
+## Model + Migration + Controller + Resource ## 
+-`php artisan make:model "---" -mcr`
+## Membuat Controller
+- `php artisan make:controller -r`
+## Membuat Model
+- `php artisan make:model " --- "`
+## Membuat Tabel Database
+- `php artisan make:migration "---_---_---`
+  ##jalankan migrasi##
+  -`php artisan migrate`
+  ##Ulang dari nol (DROP semua tabel → migrate)##
+  -`php artisan migrate:fresh`
 
 ---
 
-## 📌 Push ke GitHub
+## Push ke GitHub
 
 ```bash
 git add .
