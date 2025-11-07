@@ -11,7 +11,7 @@
    ##Jalankan Migrasi##  
 - `php artisan migrate`     
   ##Ulang dari nol (DROP semua tabel → migrate)##      
--`php artisan migrate:fresh`
+- `php artisan migrate:fresh`
 
 ---
 
