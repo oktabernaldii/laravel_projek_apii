@@ -3,7 +3,7 @@
 ## Model + Migration + Controller + Resource ## 
 -`php artisan make:model "---" -mcr`
 ## Membuat Controller
-- `php artisan make:controller -r`
+- `php artisan make:controller "A---B" -r`
 ## Membuat Model
 - `php artisan make:model " --- "`
 ## Membuat Tabel Database
