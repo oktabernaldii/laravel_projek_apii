@@ -8,9 +8,9 @@
 - `php artisan make:model " --- "`
 ## Membuat Tabel Database
 - `php artisan make:migration "---_---_---"`   
-   #### Jalankan Migrasi  
+  ### *Jalankan Migrasi  
 - `php artisan migrate`     
-  #### *Ulang dari nol (DROP semua tabel → migrate)
+  ### *Ulang dari nol (DROP semua tabel → migrate)
 - `php artisan migrate:fresh`
 
 ---
