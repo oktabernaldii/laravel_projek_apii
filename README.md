@@ -13,10 +13,10 @@
 git add .
 git commit -m "pesan commit"
 git push
+```
 
+---
 
-
-## Nama harus sama dengan daata base
-\
+## Nama harus sama dengan daata base\
 
 alt+shif+f untuk merapikan
