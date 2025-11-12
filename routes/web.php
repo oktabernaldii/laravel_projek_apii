@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Authontroller;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FakultasController;
@@ -60,6 +61,9 @@ Route::post('mahasiswa/store', [MahasiswaController::class, 'store'])->name('mah
 route::get('mahasiswa/edit/{mahasiswa}',[MahasiswaController::class,'edit'])->name('mahasiswa.edit');
 route::post('mahasiswa/update/{mahasiswa}',[MahasiswaController::class,'update'])->name('mahasiswa.update');
 Route::get('mahasiswa/hapus/{mahasiswa}',[MahasiswaController::class,'destroy'])->name('mahasiswa.hapus');
+
+//Register
+Route::get('/register',[Authontroller::class, 'formRegister'])->name('register');
 
 
 
